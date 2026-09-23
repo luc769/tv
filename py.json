@@ -12,7 +12,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "indexs": 1,
-      "filterable": 1
+      "filterable": 1,
       "jar":"./jar/spider.jar"
     },
      {
