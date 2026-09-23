@@ -17,7 +17,7 @@
       "key": "py_apple",
       "name": "🍎┃苹果┃影视",
       "type": 3,
-      "api": "http://fmys.top/py/apple.py",
+      "api": "./py/apple.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
