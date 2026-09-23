@@ -13,6 +13,7 @@
       "quickSearch": 0,
       "indexs": 1,
       "filterable": 1
+      "jar":"./jar/spider.jar"
     },
      {
       "name":"🍌小黄人",
