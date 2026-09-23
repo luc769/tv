@@ -740,7 +740,7 @@
     },
     {
       "key": "hige音乐网",
-      "name": "🎶hige|[音乐]",
+      "name": "🎶hige|音乐",
       "type": 3,
       "api": "http://150.158.52.248/tgyg/lib/apiv4267hige.py",
       "searchable": 1,
@@ -749,7 +749,7 @@
     },
     {
       "key": "DJ音乐网 PY",
-      "name": "👌DJ音乐网丨[音乐]",
+      "name": "👌DJ音乐网|音乐",
       "type": 3,
       "api": "http://150.158.52.248/tgyg/lib/apiv4289DJ音乐网.py",
       "searchable": 1,
