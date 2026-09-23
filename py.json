@@ -14,7 +14,7 @@
       "filterable": 1
     },
     {
-      "name":"🍌小黄人",
+      "name":"🍌小黄人|影视",
       "key":"AppV7Xhr",
       "type":3,"api":"csp_AppV7Amns",
       "searchable":1,"quickSearch":1,
@@ -23,7 +23,7 @@
       "jar":"https://nos.netease.com/vcloud-statistic/nrtc/17aeb464-6132-4b0e-9c1d-d3c3653c8c89.png"
     },
     {
-      "name":"🍉瓜子",
+      "name":"🍉瓜子|影视",
       "key":"csp_Guazi",
       "type":3,
       "api":"csp_GuaziAmns",
@@ -35,13 +35,24 @@
     },
     {
       "key":"天天",
-      "name":"⛅天天",
+      "name":"⛅天天|影视",
       "type":3,
       "api":"csp_TTian",
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
       "ext":"7lj763gg0939791h1l3888jig44gi291li",
+      "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
+    },
+    {
+      "key":"金牌",
+      "name":"🥇金牌|影视",
+      "type":3,
+      "api":"csp_Jpys",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"7lj763gg402i7942483i93j6h95h84jil1g7i7"},
       "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
     },
     {
