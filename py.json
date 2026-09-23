@@ -128,7 +128,7 @@
     },
     {
       "key": "剧王短剧",
-      "name": "剧王｜短剧",
+      "name": "剧王|短剧",
       "type": 3,
       "api": "http://47.96.82.41:5188/svip/py/剧王短剧.py",
       "searchable": 1,
@@ -173,7 +173,7 @@
     },
     {
       "key": "七星短剧",
-      "name": "🎬七星丨短剧",
+      "name": "🎬七星|短剧",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py",
       "searchable": 1,
@@ -533,7 +533,7 @@
     },
     {
       "key": "七猫",
-      "name": "七猫｜短剧",
+      "name": "七猫|短剧",
       "type": 3,
       "api": "https://mpimg.cn/down.php/fd932d46caef0995cb0b6936f0413946.py",
       "searchable": 1,
@@ -587,7 +587,7 @@
     },
     {
       "key": "csp_AppXY",
-      "name": "🎀️┃星牙┃短剧",
+      "name": "🎀️星牙|短剧",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/tvbox/refs/heads/main/肥猫2026/lib/XYDJ.py",
       "searchable": 1,
@@ -650,7 +650,7 @@
     },
     {
       "key": "红果短剧最终版 (1).py",
-      "name": "红果短剧最终版",
+      "name": "红果短剧最终版|短剧",
       "type": 3,
       "api": "http://150.158.52.248/tgyg/lib/红果短剧最终版 (1).py",
       "searchable": 1,
@@ -767,7 +767,7 @@
     },
     {
       "key": "csp_HongGuo",
-      "name": "🍎果子┃精选短剧",
+      "name": "🍎果子|短剧",
       "type": 3,
       "api": "https://s3plus.meituan.net/opapisdk/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py",
       "searchable": 1,
