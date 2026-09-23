@@ -14,37 +14,6 @@
       "filterable": 1
     },
     {
-      "name":"🍌小黄人",
-      "key":"AppV7Xhr",
-      "type":3,"api":"csp_AppV7Amns",
-      "searchable":1,"quickSearch":1,
-      "changeable":0,
-      "ext":"AppV7Xhr",
-      "jar":"https://nos.netease.com/vcloud-statistic/nrtc/17aeb464-6132-4b0e-9c1d-d3c3653c8c89.png"
-    },
-    {
-      "name":"🍉瓜子",
-      "key":"csp_Guazi",
-      "type":3,
-      "api":"csp_GuaziAmns",
-      "searchable":1,
-      "quickSearch":1,
-      "changeable":0,
-      "ext":"Guazi",
-      "jar":"https://nos.netease.com/vcloud-statistic/nrtc/17aeb464-6132-4b0e-9c1d-d3c3653c8c89.png"
-    },
-    {
-      "key":"天天",
-      "name":"⛅天天",
-      "type":3,
-      "api":"csp_TTian",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"7lj763gg0939791h1l3888jig44gi291li",
-      "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
-    },
-    {
       "key": "瓜子影视",
       "name": "🥇瓜子｜影视",
       "type": 3,
