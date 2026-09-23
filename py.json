@@ -1,7 +1,6 @@
 //https://0.wdzb.eu.cc/tvbox/海量py聚合接口.json
 {
   "spider": "./jar/spider.jar",
-  //"spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar",
   "logo": "https://mpimg.cn/down.php/7c35e9376677a03556efe5193bf23cec.jpg",
   "sites": [
     {
@@ -43,8 +42,8 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext":"7lj763gg0939791h1l3888jig44gi291li"
-      //"jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
+      "ext":"7lj763gg0939791h1l3888jig44gi291li",
+      "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
     },
     {
       "key":"金牌",
@@ -54,8 +53,8 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      "ext":"7lj763gg402i7942483i93j6h95h84jil1g7i7"
-     // "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
+      "ext":"7lj763gg402i7942483i93j6h95h84jil1g7i7",
+      "jar":"https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8"
     },
     {
       "key": "瓜子影视",
