@@ -131,60 +131,6 @@
       "filterable": 1
     },
     {
-      "key": "vf.py",
-      "name": "🦋 vf(py)｜🔞",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/vf.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "MissAV-py",
-      "name": "🦋 MissAV(py)｜🔞",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/爱AV.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Hanime",
-      "name": "🦋 Hanime(py)｜🔞",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/Hanime.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "91rb",
-      "name": "🦋 91rb(py)｜🔞",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/91rb.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "DSYS",
-      "name": "DSYS.py",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/main/纯福利/plugin/adult/DSYS.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "lav",
-      "name": "🦋 lav(py)｜🔞",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/lav.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "色播聚合",
       "name": "🦋 色播聚合(py)｜🔞",
       "type": 3,
