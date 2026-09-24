@@ -13,15 +13,6 @@
       "filterable": 1
     },
     {
-      "key": "观影",
-      "name": "观影",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/观影.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "瓜子影视",
       "name": "🥇瓜子｜影视",
       "type": 3,
