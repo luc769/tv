@@ -1,5 +1,5 @@
 {
-  "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+  "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/luc769/tv/main/jar/spider.jar",
   "logo": "https://mpimg.cn/down.php/7c35e9376677a03556efe5193bf23cec.jpg",
   "sites": [
     {
@@ -10,8 +10,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "indexs": 1,
-      "filterable": 1,
-      "jar":"https://gh-proxy.org/https://raw.githubusercontent.com/luc769/tv/main/jar/spider.jar"
+      "filterable": 1
     },
     {
       "key": "瓜子影视",
