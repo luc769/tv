@@ -658,10 +658,10 @@
       "filterable": 1
     },
     {
-      "key": "金牌影视PY",
-      "name": "👌金牌影视丨[1080p影视]",
+      "key": "奇奇影视PY",
+      "name": "👌奇奇影视丨[1080p影视]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/apiv323金牌影视.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/apiv303奇奇影视.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
