@@ -144,6 +144,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+      "key": "苹果py",
+      "name": "🌇｜苹果",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/luc769/tv/main/py/apple.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "网络直播",
       "name": "📺网络┃点播",
