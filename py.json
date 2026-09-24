@@ -658,51 +658,6 @@
       "filterable": 1
     },
     {
-      "key": "红果短剧最终版 (1).py",
-      "name": "红果短剧最终版|短剧",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/红果短剧最终版 (1).py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "影探4K-修复版.py",
-      "name": "影探4K-修复版",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/影探4K-修复版.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "芒果TV.爱奇艺.py",
-      "name": "芒果TV.爱奇艺.py",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/芒果TV.爱奇艺.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "蝴蝶影院.py",
-      "name": "蝴蝶影院",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/蝴蝶影院.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "合并",
-      "name": "合并",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/合并.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "爱影视 PY",
       "name": "👌爱影视丨[1080p影视]",
       "type": 3,
