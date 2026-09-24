@@ -163,6 +163,15 @@
       "filterable": 1
     },
     {
+      "key": "糖心次元",
+      "name": "🦋糖心次元(py)｜🔞",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/溏心次元🔞.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },    
+    {
       "key": "哔哩直播py",
       "name": "🌇｜哔哩｜直播",
       "type": 3,
