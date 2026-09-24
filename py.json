@@ -676,6 +676,15 @@
       "filterable": 1
     },
     {
+      "key": "蝴蝶影院PY",
+      "name": "蝴蝶影院PY",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/蝴蝶影院.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "wangluozb.py",
       "name": "🐅wlzbpy[网络直播]",
       "type": 3,
