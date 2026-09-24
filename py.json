@@ -144,6 +144,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+      "key": "爱听音乐py",
+      "name": "♦｜爱听｜音乐",
+      "type": 3,
+      "api": "https://chigua.eu.org/py/爱听音乐.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "网络直播",
       "name": "📺网络┃点播",
@@ -185,15 +194,6 @@
       "name": "🎬七星|短剧",
       "type": 3,
       "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "爱听音乐py",
-      "name": "♦｜爱听｜音乐",
-      "type": 3,
-      "api": "https://chigua.eu.org/py/爱听音乐.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
