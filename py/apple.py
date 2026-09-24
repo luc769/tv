@@ -1,25 +1,21 @@
 # -*- coding: utf-8 -*-
 # by @嗷呜
 import sys
+import time
 sys.path.append('..')
 from base.spider import Spider
 
 class Spider(Spider):
-
     def init(self, extend=""):
         pass
-
     def isVideoFormat(self, url):
         pass
-
     def manualVideoCheck(self):
         pass
-
     def destroy(self):
         pass
 
     host='http://item.xpgcom.com'
-
     headers = {
       "User-Agent": "okhttp/3.12.11"
     }
@@ -36,7 +32,7 @@ class Spider(Spider):
         classes = []
         for item in data['data']:
             has_non_empty_field = False
-            item['soryby'] = ['updatetime', 'hits', 'score']
+            item['sortby'] = ['updatetime', 'hits', 'score']
             demos = ['时间', '人气', '评分']
             classes.append({"type_name": item["type_name"], "type_id": str(item["type_id"])})
             for key in dy:
@@ -64,15 +60,16 @@ class Spider(Spider):
     def homeVideoContent(self):
         rsp = self.fetch(f"{self.host}/api.php/v2.main/androidhome", headers=self.headers).json()
         videos = []
-        for i in rsp['data']['list']:videos.extend(self.getlist(i['list']))
+        for i in rsp['data']['list']:
+            videos.extend(self.getlist(i['list']))
         return {'list':videos}
 
     def categoryContent(self, tid, pg, filter, extend):
         params = {
             "page": pg,
             "type": tid,
-            "area":extend.get('areaes',''),
-            "year":extend.get('yeares',''),
+            "area":extend.get('area',''),
+            "year":extend.get('year',''),
             "sortby":extend.get('sortby',''),
             "class":extend.get('classes','')
         }
@@ -113,13 +110,13 @@ class Spider(Spider):
             'version': 'XPGBOX com.phoenix.tv1.5.7',
             'hash': 'd78a',
             'screenx': '2345',
-            'user-agent': 'Lavf/58.12.100',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
             'token': 'ElEDlwCVgXcFHFhddiq2JKteHofExRBUrfNlmHrWetU3VVkxnzJAodl52N9EUFS+Dig2A/fBa/V9RuoOZRBjYvI+GW8kx3+xMlRecaZuECdb/3AdGkYpkjW3wCnpMQxf8vVeCz5zQLDr8l8bUChJiLLJLGsI+yiNskiJTZz9HiGBZhZuWh1mV1QgYah5CLTbSz8=',
-            'timestamp': '1743060300',
+            'timestamp': str(int(time.time())),
             'screeny': '1065',
         }
-        if 'http' not in id:id=f"http://c.xpgtv.net/m3u8/{id}.m3u8"
+        if 'http' not in id:
+            id=f"http://c.xpgtv.net/m3u8/{id}.m3u8"
         return {"parse": 0, "url": id, "header": header}
 
     def localProxy(self, param):
@@ -136,5 +133,3 @@ class Spider(Spider):
                 "vod_remarks": r or vod['score']
             })
         return videos
-
-
