@@ -515,7 +515,15 @@
     "quickSearch": 1,
     "filterable": 1
   },
-
+     {
+    "key": "三年高考五年模拟",
+    "name": "三年高考五年模拟|🔞",
+    "type": 3,
+    "api": "https://ghfast.top/https://raw.githubusercontent.com/luc769/tv/main/py/18+/三年高考五年模拟🔞.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
     {
       "key": "vf.py",
       "name": "🦋 vf(py)｜🔞",
