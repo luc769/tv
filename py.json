@@ -21,6 +21,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+      "key": "官方聚合",
+      "name": "🥇官方聚合｜影视",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/luc769/tv/main/py/Ⓜ️官方聚合.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "bilibili",
       "name": "B站｜星源",
