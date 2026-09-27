@@ -50,6 +50,7 @@ _CACHE_FILE = "国色天香site.txt"
 
 
 def decrypt_text(text: str) -> str:
+    """解密网站加密文本(标题/分类名等)"""
     if not text or not isinstance(text, str):
         return ""
     result = "".join(_DECRYPT_MAP.get(ch, ch) for ch in text)
@@ -57,6 +58,13 @@ def decrypt_text(text: str) -> str:
 
 
 def _extract_redirect_url_from_881(html_text: str) -> str:
+    """从 HTTP 881 响应的 HTML 中提取跳转目标 URL。
+
+    支持两种格式:
+    1. document.write(decodeURIComponent("...")) 嵌套格式
+    2. 直接的 var url = "..." 格式
+    3. window.location.replace("...") 格式
+    """
     if not html_text:
         return ""
 
@@ -106,6 +114,7 @@ def _extract_redirect_url_from_881(html_text: str) -> str:
 
 
 class Spider(Spider):
+    """PyramidStore 标准爬虫插件 (修复版 v5.0)"""
 
     def __init__(self):
         self.siteUrl = _BACKUP_BASE_URLS[0]
@@ -132,6 +141,18 @@ class Spider(Spider):
     # ==================== 动态网址解析（核心新增）====================
 
     def _resolve_site_url(self, default_url: str = None, max_redirects: int = 3) -> str:
+        """
+        动态获取站点网址，支持本地缓存和跳转追踪。
+
+        工作流程:
+            1. 尝试从 ./_CACHE_FILE 读取缓存的网址
+            2. 验证缓存网址是否仍然有效(200 或无需跳转)
+            3. 缓存无效/不存在时，使用 default_url 或 self.siteUrl
+            4. 访问目标网址，追踪 HTTP 跳转(301/302/307/308/881)
+            5. 最多追踪 max_redirects 次，防止死循环
+            6. 将最终有效网址写回 ./_CACHE_FILE
+            7. 更新 self.siteUrl 并返回最终网址
+        """
         default_url = default_url or getattr(self, 'siteUrl', _BACKUP_BASE_URLS[0])
 
         # ---------- 1. 读取缓存 ----------
@@ -148,6 +169,7 @@ class Spider(Spider):
 
         # ---------- 2. 内部验证函数 ----------
         def _check_url(url: str) -> tuple:
+            """检查 URL 状态，返回 (is_valid, final_url, status_code)"""
             if not url:
                 return False, url, 0
             try:
@@ -278,6 +300,7 @@ class Spider(Spider):
         return "国色天香"
 
     def refresh_domains(self) -> bool:
+        """从 /data.json 抓取动态域名信息,支持备用域名切换。"""
         candidates = [self.siteUrl] + [u for u in _BACKUP_BASE_URLS if u != self.siteUrl]
         seen = set()
         unique_candidates = []
@@ -357,6 +380,7 @@ class Spider(Spider):
         return False
 
     def fetch(self, url, headers=None):
+        """统一请求方法"""
         if headers is None:
             headers = {
                 "User-Agent": self.userAgent,
@@ -371,6 +395,7 @@ class Spider(Spider):
             return None
 
     def _get_json(self, path: str, params: dict = None):
+        """请求JSON接口"""
         if "?" in path:
             base_path, existing_query = path.split("?", 1)
             url = f"{self.siteUrl}{base_path}?{existing_query}"
@@ -391,6 +416,7 @@ class Spider(Spider):
             return None
 
     def cover_url(self, serial_number: str) -> str:
+        """封面 URL — 通过远程代理解密 XOR 加密的图片"""
         if not serial_number:
             return ""
         pic_base = self.pic_domain if self.pic_domain else self.siteUrl
@@ -404,6 +430,7 @@ class Spider(Spider):
         return f"{novel_base}/m3u8/{serial_number}/index_domain.m3u8?{self.csstime}"
 
     def _format_vod(self, item: dict) -> dict:
+        """统一格式化为TVBox标准视频条目"""
         serial = item.get("serial_number", "")
         return {
             "vod_id": str(item.get("id", "")),
