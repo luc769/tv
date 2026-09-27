@@ -2,15 +2,6 @@
   "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
   "logo": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/NanFeng.gif",
   "sites": [
-{
-      "name":"🍌小黄人",
-      "key":"AppV7Xhr",
-      "type":3,"api":"csp_AppV7Amns",
-      "searchable":1,"quickSearch":1,
-      "changeable":0,
-      "ext":"AppV7Xhr",
-      "jar":"https://nos.netease.com/vcloud-statistic/nrtc/17aeb464-6132-4b0e-9c1d-d3c3653c8c89.png"
-    },
     {
       "name":"🍉瓜子",
       "key":"csp_Guazi",
