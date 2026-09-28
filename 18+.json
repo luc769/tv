@@ -30,7 +30,7 @@
     "filterable": 1
   },
   {
-    "key": "肉视频🔞",
+    "key": "肉视频",
     "name": "肉视频|🔞",
     "type": 3,
     "api": "https://ghfast.top/https://raw.githubusercontent.com/luc769/tv/main/py/18+/肉视频🔞.py",
@@ -38,6 +38,15 @@
     "quickSearch": 1,
     "filterable": 1
   },
+   {
+    "key": "吉利猫",
+    "name": "吉利猫|🔞",
+    "type": 3,
+    "api": "https://ghfast.top/https://raw.githubusercontent.com/luc769/tv/main/py/18+/吉利猫🔞.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },   
   {
     "key": "51吃瓜",
     "name": "51吃瓜|🔞",
